@@ -116,11 +116,11 @@ http://localhost:3000
 - Retrieve products based on product ID.
 ### POST /cart/add: 
 - Add a product to the user's cart.
-### GET /cart/view:
+### GET /cart/:userid:
 - View the contents of the user's cart.
-### PUT /cart/update/:productId:
+### PUT /cart/update:
 -Update the quantity of a product in the user's cart.
-### DELETE /cart/remove/:productId: 
+### DELETE /cart/remove: 
 - Remove a product from the user's cart.
 ### POST /order/place:
 - place an order
