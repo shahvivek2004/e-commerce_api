@@ -73,18 +73,18 @@ http://localhost:3000
 
    
 ## API Endpoints: 
-**GET /categories:** Retrieve a list of categories.
-**GET /products/:categoryId:** Retrieve products based on category ID.
-**GET /products/:productid:** Retrieve products based on product ID.
-**POST /cart/add:** Add a product to the user's cart.
-**GET /cart/:userid:** View the contents of the user's cart.
-**PUT /cart/update:** Update the quantity of a product in the user's cart.
-**DELETE /cart/remove:** Remove a product from the user's cart.
-**POST /order/place:** place an order
-**GET /order/history:** get order history
-**GET /order/details:** get order details
-**POST /users/register:** Register a new user.
-**POST /users/login:** Log in and obtain an authentication token.
+- **GET /categories:** Retrieve a list of categories.
+- **GET /products/:categoryId:** Retrieve products based on category ID.
+- **GET /products/:productid:** Retrieve products based on product ID.
+- **POST /cart/add:** Add a product to the user's cart.
+- **GET /cart/:userid:** View the contents of the user's cart.
+- **PUT /cart/update:** Update the quantity of a product in the user's cart.
+- **DELETE /cart/remove:** Remove a product from the user's cart.
+- **POST /order/place:** place an order
+- **GET /order/history:** get order history
+- **GET /order/details:** get order details
+- **POST /users/register:** Register a new user.
+- **POST /users/login:** Log in and obtain an authentication token.
 
 
 ## Authentication
